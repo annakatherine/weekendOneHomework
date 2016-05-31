@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Weekend Challenge </title>
+
+  </head>
+
+  <body>
+    <form name = "form1" class="" action="index.html" method="post">
+    <h1>Add your information here</h1>
+    <!--user adds personal information in text boxes-->
+      <input type="text" id="firstName" value="">First Name <br>
+      <input type="text" id="lastName" value=""> Last Name <br>
+      <input type="text" id="employeeID" value=""> Employee ID <br>
+      <input type="text" id="jobTitle" value="">Job Title <br>
+      <input type="text" id="salary" value=""> Salary <br>
+    <!--user clicks button and runs createEmployee function-->
+    <button type="button" name="addEmployee" value = "Reset Form" onclick="createEmployee();">Add Employee</button>
+   </form>
+   <h2>List of Employees</h2>
+   <div id = "listofEmployees"></div>
+   <input type="text" id="deletedEmployeeID" value=""> ID of Employee to Delete <br>
+   <button type="button" name="deletedEmployeeID" onclick="deleteEmployee();"> Delete Employee </button>
+
+
+   <script type="text/javascript" src = "weekendChallengeOne.js">
+   </script>
+  </body>
+</html>
